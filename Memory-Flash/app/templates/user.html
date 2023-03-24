@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ current_user.username }}'s scores! </h1>
+
+   <table id="myTable" class="tablesorter"> 
+    <thead>
+        <tr>
+            <th> DATE </th>
+            <th> SCORE </th>
+        </tr>
+    </thead> 
+    <tbody>
+        {% for user in user %} 
+            <tr>
+                <td> {{ user.date }} </td>
+                <td> {{ user.user_score }} </td>
+            </tr>
+        {% endfor %} 
+    </tbody>
+</table>
+</body>
+{% endblock %} 

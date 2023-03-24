@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Leaderboard</h1>
+    <!-- LEADERBOARD TABLE -->
+    <table id="myTable" class="tablesorter">
+        <thead>
+            <tr>
+                <th> USERNAME </th>
+                <th> DATE </th>
+                <th> SCORE </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for score in scores %} 
+                <tr>
+                    <td> {{ score.user.username }} </td>
+                    <td> {{ score.date }} </td>
+                    <td> {{ score.user_score }}</td>
+                </tr>
+            {% endfor %} 
+    </tbody>
+</table>
+{% endblock %}
+
+
+

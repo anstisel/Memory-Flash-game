@@ -1,0 +1,254 @@
+
+head,body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    padding: 40px;
+    font-size: 60px;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+    list-style-type: square;
+}
+
+button, input {
+    color: black !important;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.para{ 
+    max-width: 1500px;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    width:70%;      
+    position: center;
+    text-align: center;
+}
+
+.empty{
+    background-color: lightgrey;
+}
+
+.answer{
+    background-color: #354560;
+}
+
+.wrong{
+    background-color: rgb(133, 5, 5);
+}
+
+.reveal{
+    background-color: rgb(44, 119, 44);
+}
+
+span{
+    display: inline-block;
+    padding: 2.5%;
+    height: 100px;
+    width: 100px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border: 5px solid #232d3c;
+}
+
+/* makes tiles smaller when viewing on a mobile device */
+@media (max-width: 1000px){
+    span{
+        display: inline-block;
+        padding: 2.5%;
+        height: 65px;
+        width: 65px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        border: 5px solid #232d3c;
+    }
+}
+
+#button04 {
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.container {
+    font-family: 'Source Code Pro', monospace;
+    padding:20px;
+}
+
+#button01, #button02, #button03 {
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 15px;
+    width: 25%;
+    border: none;
+    padding: 14px 28px;
+
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background-color: lightgrey;
+}
+
+body {
+    background: #2d394d;
+    color: lightgrey;       
+    }
+
+.center, h1{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+} 
+
+
+
+a {
+    color: lightgrey !important;
+}
+
+.navbar-default {
+    background: #2d394d;
+    border-color: #323f56;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.submit-dark {
+    color: black !important;
+}
+
+.reg-dark {
+        color: #337ab7 !important;
+}
+
+/* Table Styling */
+table {
+    border-collapse: separate;
+    font-size: 25px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+ tr.highlighter:hover  {
+   background-color: #b0cadd; 
+   color:black;
+
+}
+
+tr.highlighter {
+    color:black;
+    background-color:  #7eabce;
+}
+
+#usertable tr:hover {
+    background-color: #7eabce;
+}
+
+tr:hover {
+    background-color:  #58778f;
+}
+
+
+th, td {
+    border: 5px solid #202a3b;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin: none;
+}
+
+th {
+    font-size: 30px;
+    border-top: none;
+    font-weight: bold;
+    background-color: #202a3b;
+}
+
+th:hover{
+    background-color:  #58778f;
+}
+
+strong {
+    font-size: 30px;
+}
+
+
+.clickable {
+    cursor: pointer;
+    background-color:purple;
+}
+
+/* Grid Styling */
+.grid-container {
+    max-width: 1800px;
+    max-height: 1800px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+    background-color: #2d394d;
+    padding: 10px;
+    gap: 50px;
+}
+
+.grid-item {
+    background-color: rgb(255, 255, 255, 0.8);
+    border: 5px solid #202a3b;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #2d394d;
+    
+}
+
+h4{
+    color: black;
+    font-size: 40px;
+}
+
+#tdyDate{
+    float:left;
+}
+.resultsArea {
+    color: black;
+    text-align: center;
+    width: 33%;
+    float:left;
+    padding: 1%;
+    height: 30%
+}
+
+#resultsArea2{
+    font-style: italic;
+}
+
+.modal-body:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.summaryRes {
+    color: black;
+}
+
+#myError {
+    color:red;
+    font-size: 25px;
+}
+
+hr {
+    width: 70%;
+}
