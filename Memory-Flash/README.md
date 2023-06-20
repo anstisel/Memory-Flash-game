@@ -11,8 +11,8 @@ This application was built using Flask with the purpose of testing a users memor
 # Installation techniques: 
 ```
 Git clone the repository onto your desired path.
-In terminal:
-  cd 'path-to-Memory-Flash-game'
+Enter Memory-Flash folder in terminal:
+  cd 'path-to-Memory-Flash'
 ```
 # How to build the application
 ## Make sure you have python installed.
