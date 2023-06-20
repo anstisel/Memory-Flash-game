@@ -8,6 +8,12 @@ A memory game to improve and test concentration.
 - Jason Dam (21713758)
 ## About this project:
 This application was built using Flask with the purpose of testing a users memory concentration. Users will be challenged with remembering a pattern of blocks that they must click in order to recieve a score that will be uploaded to the leaderboard if that user is logged in.
+# Installation techniques: 
+```
+Git clone the repository onto your desired path.
+In terminal:
+  cd 'path-to-Memory-Flash-game'
+```
 # How to build the application
 ## Make sure you have python installed.
 ```
